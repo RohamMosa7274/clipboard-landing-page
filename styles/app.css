@@ -179,7 +179,7 @@ body {
 
 .navbar {
     margin-bottom: var(--margin-bottom);
-    padding-top: 20px;
+    padding-top: 2.5rem;
     
 }
 
@@ -303,18 +303,13 @@ body {
     position: absolute;
     color: #fff;
     top: 30px;
-    left: -100px;
+    left: -105px;
     line-height: 1.5;
 }
 
 .mobile-menu__link ~ .sub-menus li:hover {
     color: var(--primary-2);
 }
-
-
-
-
-
 
 
 
