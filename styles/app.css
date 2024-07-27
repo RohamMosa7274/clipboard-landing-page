@@ -220,7 +220,7 @@ body {
 }
 
 .nav__btn-line::before {
-    top: -0.8rem;
+    top: -0.75rem;
 }
 
 .nav__btn-line::after {
@@ -691,11 +691,21 @@ body {
 
 @media screen and (min-width:1250px) {
     .container {
-        max-width: 1250px;
+        max-width: 1230px;
     }
 }
 
+@media screen and (min-width:1650px) {
+    .container {
+        max-width: 1400px;
+    }
+}
 
+@media screen and (min-width:1900px) {
+    .container {
+        max-width: 1700px;
+    }
+}
 
 
 
