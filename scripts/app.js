@@ -27,22 +27,22 @@ let setMenuOpen = true;
 
 //////////////////////open dropdown menu (desktop)///////////////////////////
 
-let menuVisibility = $.querySelector("#menu ul");
-
 let f = $.querySelector("#menu ul.sub-menus");
 
 let sub_menus = $.querySelector(".sub-menus");
 let toggle_dropdown_arrow = $.querySelector(".dropdown-arrow");
-let set_display= $.querySelector(".set_display");
+
 
 toggle_dropdown_arrow.addEventListener('click', function () {
     if (setMenuOpen) {
-        menuVisibility.style.overflow = "visible";
-        f.style.bottom = "-95px"
+        f.style.opacity = "1";
+        f.style.visibility = "visible";
+        f.style.transform = "translatey(10px)";
         setMenuOpen = false;
     }else {
-        f.style.bottom = "95px"
-        menuVisibility.style.overflow = "hidden";
+        f.style.opacity = "0";
+        f.style.visibility = "hidden";
+        f.style.transform = "translatey(-4px)";
         setMenuOpen = true;
     }
 })

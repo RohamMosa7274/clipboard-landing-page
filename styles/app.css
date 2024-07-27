@@ -331,7 +331,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
 }
 
 .menu__home {
@@ -381,15 +380,19 @@ body {
 	width: 170px;
 	background: #6173FF;
 	position: absolute;
-    bottom: 50px;
-    transition: all 100ms ease-in-out;
+    top: 50px;
+    transition: all 180ms ease-in;
     display: block;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-4px);
 }
 
-
-#menu ul.sub-menus a:hover{
-	color: var(--navbar-hover);
+.menu__services li:hover {
+    color: var(--navbar-hover);
+    
 }
+
 
 
 
