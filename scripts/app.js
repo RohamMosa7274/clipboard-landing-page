@@ -69,16 +69,12 @@ mobileMenuLink.addEventListener('click', function () {
         setMenuOpen = false;
     } else {
         subMenus.style.left = "-100px";
-        subMenus.style.transition = "all 100ms ease-in-out"
+        subMenus.style.transition = "all 110ms ease-in-out"
         mobileMenuItem.style.marginBottom = "0.5rem";
         mobileMenuItem.style.transition = "all 200ms ease-in-out"
         setMenuOpen = true;
     }
 })
-
-console.log(mobileMenuLink);
-
-
 
  //////// create smooth scroll btn ////////
 
